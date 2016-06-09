@@ -642,8 +642,8 @@ polls 関係のモデルを少し修正して、 ``Poll`` と ``Choice`` に
 
 .. admonition:: なぜ :meth:`~django.db.models.Model.__str__` ではなく :meth:`~django.db.models.Model.__unicode__` を使うの？
 
-    Python に詳しければ、普段は :meth:`~django.db.models.Model.__str__` で
-    はなく :meth:`~django.db.models.Model.__unicode__` を実装していることで
+    Python に詳しければ、普段は :meth:`~django.db.models.Model.__unicode__` で
+    はなく :meth:`~django.db.models.Model.__str__` を実装していることで
     しょう。 :meth:`~django.db.models.Model.__unicode__` を使うのは、Django
     のモデルがデフォルトで Unicode を扱うからです。 Django では、データベー
     ス上に保存された文字列の情報は、取り出すときに全て Unicode 型に変換され
