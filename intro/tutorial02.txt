@@ -278,7 +278,7 @@ OK、 Poll の管理サイトページはできました。しかし ``Poll`` �
    :alt: 管理サイトでの Choice の表示
 
 このフォームでは「Poll」フィールドは選択ボックスで、データベース上の全ての
-Poll オブジェクトを選ます。 Django は :class:`~django.db.models.ForeignKey`
+Poll オブジェクトを選べます。 Django は :class:`~django.db.models.ForeignKey`
 を表示する時には ``<select>`` ボックスを使わねばならないということを知って
 いるのです。今の時点では、 Poll はデータベース上に一つしかないはずですね。
 
