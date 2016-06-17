@@ -131,7 +131,7 @@ Django の :term:`プロジェクト` (:term:`project`) を構成するコード
 * :file:`mysite/settings.py`: Django プロジェクトの設定ファイルです。
   設定の仕組みは :doc:`/topics/settings` を参照してください。
 
-* :file:``mysite/urls.py``: Django プロジェクトの URL 宣言、いうなれば Django
+* :file:`mysite/urls.py`: Django プロジェクトの URL 宣言、いうなれば Django
   サイトにおける「目次」に相当します。詳しくは :doc:`/topics/http/urls` を参照
   してください。
 
