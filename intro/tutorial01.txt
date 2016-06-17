@@ -209,7 +209,7 @@ Database の設定
   ``'django.db.backends.oracle'`` のいずれかです。
   他にも :setting:`いくつか <DATABASE-ENGINE>` あります。
 
-* :setting:`NAME`` -- データベースの名前です。 SQLite を使っている場合には
+* :setting:`NAME` -- データベースの名前です。 SQLite を使っている場合には
   データベースファイルのフルパス (絶対パス) にします。
   指定したパスのファイルが存在しなければ、 Django は最初にデータベースの同期
   を実行したときにファイルを生成します (後で解説します)。
